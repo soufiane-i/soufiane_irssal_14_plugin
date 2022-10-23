@@ -1,6 +1,6 @@
 {
-  "name": "soufiane_irssal_14_modal",
-  "version": "1.0.0",
+  "name": "soufiane_irssal_14_plugin",
+  "version": "0.0.5",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -16,7 +16,7 @@
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run prettier && npm run lint"
+    "prepublishOnly": "npm run lint"
   },
   "keywords": [],
   "author": "soufiane irssal",
