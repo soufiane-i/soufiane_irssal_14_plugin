@@ -1,7 +1,7 @@
 {
-  "name": "soufiane_irssal_14_plugin",
-  "version": "0.0.5",
-  "description": "",
+  "name": "soufiane.irssal_plugin",
+  "version": "1.0.0",
+  "description": "modal Plugin",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",

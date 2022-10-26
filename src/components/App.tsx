@@ -1,9 +1,13 @@
 import React from "react";
 
-const ModalPlugin = () => {
+function ModalPlugin() {
+  function ModalClose() {
+    const modal = document.querySelector(".modalContainer");
+    modal?.classList.add("modalOff");
+  }
   return (
     <div
-      className="modalContainer"
+      className="modalContainer modalOff"
       style={{
         position: "absolute",
         height: "100%",
@@ -52,11 +56,12 @@ const ModalPlugin = () => {
               width: "auto",
               filter: "invert(100%)",
             }}
+            onClick={ModalClose}
           />
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default ModalPlugin;
