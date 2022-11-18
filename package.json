@@ -1,6 +1,6 @@
 {
   "name": "soufiane.irssal_plugin",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "modal Plugin",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -18,7 +18,12 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint"
   },
-  "keywords": [],
+  "keywords": [
+    "modal",
+    "react",
+    "typescript",
+    "javascript"
+  ],
   "author": "soufiane irssal",
   "license": "MIT",
   "devDependencies": {
