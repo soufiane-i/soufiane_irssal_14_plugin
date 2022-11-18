@@ -11,3 +11,27 @@ A click in the cross button hide it.
 ## How to import
 
     import { ModalPlugin } from "soufiane.irssal_plugin";
+
+## Example
+
+```
+function HomePage() {
+  return (
+    <>
+      <Header />
+      <Nav
+        refLink="employee-list"
+        text="View Current Employees"
+        arrowDirection="right"
+      />
+      <main>
+        <CreateEmployeeForm />
+      </main>
+      <ModalPlugin />
+    </>
+  );
+}
+
+export default HomePage;
+
+```
